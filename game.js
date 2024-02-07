@@ -9,7 +9,7 @@ var name=prompt("enter your name:");
 let makebubbble=()=>
 {
     var cluster= "";
-for(var i=1;i<=84;i++)
+for(var i=1;i<=133;i++)
 {
     var rn=Math.floor(Math.random()*10)
     cluster +=`<div class="bubble">${rn}</div>`;
@@ -27,9 +27,9 @@ let runtimer=()=>
     else{
         clearInterval(timerint);
         document.getElementById('l').innerHTML=`
-        <h1> Dear ${name}, your game</h1>
+        <h1> Dear ${name}, your game </h1>
         </br>
-        <h1>is OVER and  </h1>
+        <h1> is OVER and </h1>
         </br>
         <h1> your score is = ${score}</h1>`;
     }},1000)
