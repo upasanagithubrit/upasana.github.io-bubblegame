@@ -9,7 +9,7 @@ var name=prompt("enter your name:");
 let makebubbble=()=>
 {
     var cluster= "";
-for(var i=1;i<=133;i++)
+for(var i=1;i<=140;i++)
 {
     var rn=Math.floor(Math.random()*10)
     cluster +=`<div class="bubble">${rn}</div>`;
