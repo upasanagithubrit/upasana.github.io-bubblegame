@@ -54,7 +54,7 @@ let scoreset=()=>
 document.querySelector('#l')
 .addEventListener("click",function(details){
 let clicked=Number(details.target.textContent);
-if(rn=clicked)
+if(rn==clicked)
 {
     scoreset();
     makebubbble();
